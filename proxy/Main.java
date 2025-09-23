@@ -8,11 +8,11 @@ public class Main {
 
         Library library = new Library();
 
-        Document doc1 = new Document(1, "Unprotected document content");
+        Document doc1 = new Document(IdCounter.getNextId(), "Unprotected document content");
         library.addDocument(doc1);
 
         String[] allowedUsers = {"Matti", "Teppo"};
-        DocumentProxy protectedDoc = library.addProtectedDocument(2, "Secret document content", allowedUsers);
+        library.addProtectedDocument(IdCounter.getNextId(), "Secret document content", allowedUsers);
 
         try {
             System.out.println("Matti reads doc1: " + library.getDocument(1).getContent(matti));
