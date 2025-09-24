@@ -50,10 +50,10 @@ public class Computer {
     @Override
     public String toString() {
         return "Computer Configuration:\n" +
-                "  Processor: " + processor + "\n" +
-                "  RAM: " + ram + "\n" +
-                "  Hard Drive: " + hardDrive + "\n" +
-                "  Graphics Card: " + graphicsCard + "\n" +
-                "  Operating System: " + operatingSystem;
+                "Processor: " + processor + "\n" +
+                "RAM: " + ram + "\n" +
+                "Hard Drive: " + hardDrive + "\n" +
+                "Graphics Card: " + graphicsCard + "\n" +
+                "Operating System: " + operatingSystem;
     }
 }
