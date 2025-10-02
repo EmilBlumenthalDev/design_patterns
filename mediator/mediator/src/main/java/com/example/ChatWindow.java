@@ -6,7 +6,7 @@ import javafx.scene.layout.*;
 import javafx.stage.Stage;
 
 public class ChatWindow {
-    public static void create(String username, ChatMediatorImpl mediator) {
+    public static void create(String username, ChatMediator mediator) {
         Stage stage = new Stage();
         stage.setTitle("Chat - " + username);
 

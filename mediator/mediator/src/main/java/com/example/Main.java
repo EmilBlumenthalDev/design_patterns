@@ -5,7 +5,7 @@ import javafx.stage.Stage;
 public class Main extends Application {
     @Override
     public void start(Stage primaryStage) {
-        ChatMediatorImpl mediator = new ChatMediatorImpl();
+        ChatMediator mediator = new ChatMediator();
 
         ChatWindow.create("Pekka", mediator);
         ChatWindow.create("Jaska", mediator);

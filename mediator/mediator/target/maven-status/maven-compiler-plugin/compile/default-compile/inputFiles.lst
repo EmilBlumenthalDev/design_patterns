@@ -1,7 +1,7 @@
 /Users/emil/Documents/school/programming/design_patterns/mediator/mediator/src/main/java/com/example/ChatClientController.java
+/Users/emil/Documents/school/programming/design_patterns/mediator/mediator/src/main/java/com/example/ChatClientInterface.java
+/Users/emil/Documents/school/programming/design_patterns/mediator/mediator/src/main/java/com/example/ChatMediatorInterface.java
 /Users/emil/Documents/school/programming/design_patterns/mediator/mediator/src/main/java/com/example/ChatMediator.java
-/Users/emil/Documents/school/programming/design_patterns/mediator/mediator/src/main/java/com/example/ChatMediatorImpl.java
 /Users/emil/Documents/school/programming/design_patterns/mediator/mediator/src/main/java/com/example/Main.java
-/Users/emil/Documents/school/programming/design_patterns/mediator/mediator/src/main/java/com/example/ChatClient.java
 /Users/emil/Documents/school/programming/design_patterns/mediator/mediator/src/main/java/com/example/ChatWindow.java
 /Users/emil/Documents/school/programming/design_patterns/mediator/mediator/src/main/java/module-info.java

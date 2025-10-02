@@ -1,6 +1,6 @@
 package com.example;
 
-public interface ChatClient {
+public interface ChatClientInterface {
     String getName();
     void receiveMessage(String message);
 }

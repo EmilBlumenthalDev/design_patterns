@@ -1,16 +1,16 @@
 package com.example;
 import javafx.scene.control.*;
 
-public class ChatClientController implements ChatClient {
+public class ChatClientController implements ChatClientInterface {
     private String name;
-    private ChatMediatorImpl mediator;
+    private ChatMediator mediator;
     private TextArea chatArea;
     private ComboBox<String> recipientBox;
     private TextField inputField;
 
     public ChatClientController(
         String name, 
-        ChatMediatorImpl mediator,
+        ChatMediator mediator,
         TextArea chatArea, 
         ComboBox<String> recipientBox,
         TextField inputField
