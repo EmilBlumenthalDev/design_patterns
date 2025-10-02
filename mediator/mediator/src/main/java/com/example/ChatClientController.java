@@ -24,7 +24,6 @@ public class ChatClientController implements ChatClient {
         mediator.registerClient(this);
         refreshRecipients();
         
-        // Clear chat area when recipient changes
         recipientBox.setOnAction(e -> chatArea.clear());
     }
 
