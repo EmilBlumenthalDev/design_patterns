@@ -16,7 +16,7 @@ public class Recommendation implements Cloneable {
         );
         copy.targetAudience = this.targetAudience;
         for (Book b : books) {
-            copy.books.add(b.clone());
+            copy.books.add(b);
         }
         return copy;
     }
